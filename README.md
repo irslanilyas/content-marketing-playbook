@@ -30,6 +30,18 @@ Ask for a reel, a LinkedIn post, a carousel or a month of ideas. The skill makes
 | `ALL-IN-ONE.md` | Everything above in a single file |
 | `AGENTS.md` | Pointer for tools that read AGENTS.md |
 
+## Install with one prompt
+
+Using an AI agent with a shell (Claude Code, Codex)? Paste this:
+
+```
+Install the skill from https://github.com/irslanilyas/content-marketing-playbook
+into my skills folder (~/.claude/skills for Claude Code, ~/.agents/skills for Codex),
+then confirm it is there.
+```
+
+Chat apps without file access (Claude app, ChatGPT, Gemini) can't install from a link. Use the `.skill` upload or paste `ALL-IN-ONE.md` instead.
+
 ## Install
 
 **Claude (app):** download `content-marketing-playbook.skill` from Releases, then Settings > Skills > upload.
